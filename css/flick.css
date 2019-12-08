@@ -1,0 +1,108 @@
+main {
+    max-width: 90%;
+    margin-top: 150px;
+    margin-right:auto;
+    margin-left:auto;    
+}
+
+.movie-card {
+    position: relative;
+    width: 80%;
+    margin: auto;           
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+    align-items: flex-start;
+    position: relative;  
+}
+
+.col-detail {   
+    flex: 25%;
+    max-width: 25%;
+    padding: 0;
+    display: flex; 
+    justify-content: center;    
+ }
+
+.col-flick {
+    flex: 75%;
+    max-width: 75%;
+    padding: 0;  
+    display: flex; 
+    justify-content: start;
+ }
+
+ .col-flick video {
+     width: 500px;
+ }
+ 
+.col-detail img {
+   
+    width:110px;    
+    border-radius:5px;    
+}
+
+.movie-card .col-detail .card{
+    text-align:center;
+    vertical-align: middle;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-card .col-detail > .card p {
+    color:black;
+    font-size: 0.6rem;
+    margin:0;
+    padding: 3px;
+    text-align: center;
+}
+
+.movie-card .col-detail > .card p:last-child {
+    text-align: justify;
+    font-size: 0.7rem;
+    padding: 8px;
+}
+
+.col-detail .card .name::before {
+    margin: 0;
+    white-space: pre-line;  text-align: center;
+    content: 'Forrest Gump, 1994 Drama';    
+}
+
+.col-detail .card .cast::before {
+    margin: 0;
+    white-space: pre-line;   
+    content: 'Tom Hanks';     
+} 
+
+.col-detail .card .summ::before {
+    margin: 0;
+    white-space: pre-line;   
+    content: 'Forrest Gump, a man with a low IQ, joins the army for service where he meets Dan and Bubba. However, he cannot stop thinking about his childhood sweetheart Jenny Curran, whose life is messed up.';     
+    text-align: justify;
+} 
+
+@media (max-width:710px) {
+  
+   .wrapper {
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;  
+       align-items: center;
+    }
+
+    .col-detail {
+       display: none;
+    }
+
+   .col-flick {
+       flex: 100%;
+       max-width: 100%;
+    }
+}

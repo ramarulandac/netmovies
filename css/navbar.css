@@ -1,0 +1,110 @@
+.navbar {
+    background:black;
+    height: var(--navbar-size);
+    line-height: var(--navbar-size);    
+    position: fixed;
+    min-width: 100%;
+    top:0;
+    left: 0;
+    color: white; 
+    z-index: 9999;  
+}
+
+@media (min-width: 600px)
+{
+    .logo {
+        text-align: left;
+        position: absolute;
+        z-index: 9999;
+        margin-left: 30px;
+    }    
+}
+
+.logo {
+    text-align: center;    
+    font-size: 1.5rem;
+}
+
+.navbar .navbar-list {    
+    display: flex;    
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;    
+    background: black;
+    margin: 0;
+}
+
+.navbar-list >.navbar-item {
+   margin-right: 3rem;  
+  
+ }
+ 
+ @media (max-width: 400px){ 
+
+    .navbar .navbar-list {
+        display: flex;    
+        justify-content: space-around;
+    }
+    
+    .navbar-list >.navbar-item {
+        margin-right: 1.5rem;
+    }
+}
+
+@media (max-width: 350px){ 
+
+    .navbar .navbar-list {
+        display: flex;    
+        justify-content: center;
+    }
+    
+    .navbar-list >.navbar-item {
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 260px){ 
+
+    .navbar .navbar-list {
+        display: block;            
+    }
+}
+
+.navbar-item  a {    
+    text-decoration: none;
+    color:white;
+}
+ 
+.search-bar{
+    display: flex;
+    color:black;    
+    margin-left: 20px;
+}
+
+ .logout {    
+    position: fixed;
+    right: 5px;
+    margin-top: 25px; 
+    z-index: 9999;    
+ }
+ 
+ .logout  a {
+    color:white;
+    text-decoration: none; 
+    margin-right:8px;
+    font-style: normal;
+    font-size: 0.9rem;   
+}
+
+.shine:hover  {
+	color: black;
+    background-color: white;
+    transition: 0.5s;
+ }
+
+.logout a:hover{
+    color:black;
+    background-color:#F0F0F0;
+    transition: 0.5s;   
+}
+

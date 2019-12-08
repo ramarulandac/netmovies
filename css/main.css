@@ -1,0 +1,76 @@
+main {
+    max-width: 850px;
+    margin-top: 120px ;
+    margin-right:auto ;
+    margin-left:auto ;
+    
+}
+
+.collage {   
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+  
+.col {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 ;
+}
+  
+.col img {    
+    vertical-align: middle;
+    width: 100%;
+ }
+
+.movies {
+    margin-bottom: 100px;
+}
+
+.marco {
+    background: black;
+} 
+
+.marco p {
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.forest::before {
+    content: 'Forres Gump';    
+}
+
+.godfather::before {
+    content: 'God Father';
+}
+
+.matrix::before {
+    content: 'Matrix';
+}
+
+.mib::before {
+    content: 'Men in black';
+}
+
+.rambo::before {
+    content: 'Rambo III';
+}
+
+@media screen and (max-width: 400px) {
+    .col {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+@media screen and (max-width: 300px) {
+    .col {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
