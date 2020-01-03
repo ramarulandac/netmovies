@@ -11,36 +11,42 @@ main {
 }
 
 .movie-card video {
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .col-flick {
     position: relative;
     margin-left: 160px;
-}
-
-.col-flick h1 {
-   margin-left: 27%;
-}
-
-.card {
-    width:350px;
+    text-align: center;
     
 }
 
+.col-flick h1 {  
+   color: whitesmoke;
+   background-color: #999999;
+   border-radius: 12px;
+}
+
+.card {
+    width:100%;
+    background-color:#999999;
+    border-radius: 12px;
+    padding-right: 5px;    
+}
+
 hr {
-    width:350px;
+    width:100%;
     margin-right: 180px;
 }
 
 .card > p {
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1rem;
     text-align: justify;
     margin-left: 4px; 
-       
+    color: whitesmoke;       
 }
 
 .card-image {
@@ -49,11 +55,13 @@ hr {
 }
 
 img {
-    width:100px;
+    width:18%;
     margin-top: 7px;
-    margin-right: 15px;
+    margin-right: 5px;
     float: left;
+    border-radius: 5px;    
 }
+
 
 .desc {
     display: inline-block;
