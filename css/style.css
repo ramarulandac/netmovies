@@ -16,7 +16,7 @@ body {
     position: relative;
     min-height: 100vh;
     padding: 0;
-    border:solid 1px transparent;
+	border:solid 1px transparent;
 	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 17%, rgba(209,209,209,1) 47%, rgba(192,192,192,1) 65%, rgba(192,192,192,1) 100%, rgba(0,0,0,1) 100%, rgba(192,192,192,1) 100%);
 	background-repeat: no-repeat;
 }
