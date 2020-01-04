@@ -1,17 +1,17 @@
-main {
-    max-width: 850px;
+main {    
+    max-width: 900px;
     margin-top: 120px ;
     margin-right:auto ;
-    margin-left:auto ;
-    
+    margin-left:auto ;    
+    height: 1000px;    
 }
+
 
 .collage {   
     display: flex;
     flex-wrap: wrap;
 }
-  
-  
+
 .col {
     flex: 33%;
     max-width: 33%;
@@ -65,7 +65,7 @@ main {
       flex: 50%;
       max-width: 50%;
     }
-  }
+}
 
 @media screen and (max-width: 300px) {
     .col {
@@ -74,3 +74,15 @@ main {
     }
 }
 
+@media (max-width: 270px) {
+   
+    
+    main {
+        margin-top: 110px;
+        z-index: 9999;
+    }
+
+    * {
+        font-size: 12px;
+    } 
+}

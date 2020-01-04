@@ -4,8 +4,8 @@
     bottom: 0;
     left: 0;
     background-color: black;
-    min-height: 90px; 
-    height: 10%;
+    min-height: 50px;
+    height: 8%;
     display: flex;
     flex-direction: column;    
     align-items: center;
@@ -16,7 +16,7 @@
     list-style-type: none;
     display: flex;
     justify-content:space-around;  
-    margin: 20px 0;  
+    margin: 7px 0;  
 }
 
 .about-list a {    
@@ -29,7 +29,7 @@
     list-style-type: none;
     justify-content:space-around;  
     display: flex;
-    margin-top: 0;    
+    margin-top: 0;   
 }
 
 .social-media .fab {
@@ -43,8 +43,18 @@
     transition: 0.5s;
 }
 
-@media (max-width: 350px){       
+
+
+@media (max-width: 450px){       
        .about .about-list a {
-        margin-right: 1rem;
+        margin-right: .6rem;
     }
 }
+
+@media (max-width: 599px) {   
+    .navbar {
+        height: 35px;
+        line-height: 30px;         
+    }  
+}
+

@@ -1,12 +1,7 @@
-main {
-    margin-top: 110px;
-    margin-right:auto;
-    margin-left:auto;
-    height: 1000px;    
-}
+
 
 .movie-card {
-    width: 80%;
+    width: 100%;
     margin: auto;           
 }
 
@@ -17,9 +12,8 @@ main {
 
 .col-flick {
     position: relative;
-    margin-left: 160px;
-    text-align: center;
-    
+    margin: 0 auto;
+    text-align: center;    
 }
 
 .col-flick h1 {  
@@ -29,10 +23,10 @@ main {
 }
 
 .card {
-    width:100%;
+    width:100%;    
     background-color:#999999;
     border-radius: 12px;
-    padding-right: 5px;    
+    padding-right: 5px;  
 }
 
 hr {
@@ -55,21 +49,91 @@ hr {
 }
 
 img {
-    width:18%;
-    margin-top: 7px;
-    margin-right: 5px;
+    width:11%;
+    margin-top: 0;
+    margin-left: 1.5%;
+    margin-right: 2%;
     float: left;
-    border-radius: 5px;    
+    border-radius: 1%;    
 }
-
 
 .desc {
     display: inline-block;
 }
 
-
-@media (max-width: 840px) {
-    .col-flick {      
-        margin-left:120px;
+@media (max-width: 270px) {
+    .movie-card {
+        width: 95%;
+        margin: auto;           
     }
 }
+
+@media (max-width:486px)  and (min-width:270px){
+    .movie-card {
+        width: 90%;
+        margin: auto;           
+    }
+    .card > p {      
+        font-size: 0.3rem;
+        line-height: 0.5rem;
+    }
+}
+
+@media (max-width: 389px){
+    .card {
+        display: none;
+    }  
+}
+
+@media (max-width: 660px) and (min-width:388px) {
+    .movie-card {
+        width: 90%;
+        margin: auto;           
+    }
+
+    .card > p {      
+        font-size: 0.4rem;
+        line-height: 0.6rem;
+    }   
+
+    image {
+        width: 8%;
+    }
+}
+
+@media (max-width: 783px) and (min-width:661px) {
+    .movie-card {
+        width: 80%;
+        margin: auto;           
+    }
+    
+    .card > p {      
+        font-size: .5rem;
+        line-height: 0.75rem;
+    }
+}
+
+@media (max-width:979px) and (min-width: 784px)  {
+    .movie-card {
+        width: 80%;
+        margin: auto;           
+    }
+
+    .card > p {      
+        font-size: .7rem;
+        line-height: 1rem;
+    }
+}
+
+@media (max-width: 1386px) and (min-width: 980px) {
+    .movie-card {
+        width: 70%;
+        margin: auto;           
+    }
+
+    .card > p {      
+        font-size: .7rem;
+        line-height: 1rem;
+    }
+}
+

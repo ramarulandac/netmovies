@@ -21,12 +21,6 @@ body {
 	background-repeat: no-repeat;
 }
 
-
-main {
-	max-width: 900px;
-	margin-top: var(--navbar-size);
-}
-
 header {
 	position: relative;
 }
