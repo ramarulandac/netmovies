@@ -1,60 +1,57 @@
-.footer  {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: black;
-    min-height: 50px;
-    height: 8%;
-    display: flex;
-    flex-direction: column;    
-    align-items: center;
+.footer {
+    position:fixed;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:black;
+    min-height:50px;
+    height:8%;
+    display:flex;
+    flex-direction:column;    
+    align-items:center;
 }
 
-.footer > .about > .about-list {
-    
-    list-style-type: none;
-    display: flex;
+.footer > .about > .about-list {    
+    list-style-type:none;
+    display:flex;
     justify-content:space-around;  
-    margin: 7px 0;  
+    margin:7px 0;  
 }
 
 .about-list a {    
-    text-decoration: none;
-    color: white;    
-    margin-right: 3rem;    
+    text-decoration:none;
+    color:white;    
+    margin-right:3rem;    
 } 
 
 .footer > .social-media > .sm-list {
-    list-style-type: none;
+    list-style-type:none;
     justify-content:space-around;  
-    display: flex;
-    margin-top: 0;   
+    display:flex;
+    margin-top:0;   
 }
 
 .social-media .fab {
-    margin-right: 3rem;
+    margin-right:3rem;
     color:white;
 }
 
 .social-media .fab:hover {
     color: black;
     background-color:#F0F0F0;
-    transition: 0.5s;
+    transition:0.5s;
 }
 
-
-
-@media (max-width: 450px){       
+@media (max-width: 450px) {       
        .about .about-list a {
-        margin-right: .6rem;
+        margin-right:.6rem;
     }
 }
 
-@media (max-width: 599px) {   
+@media (max-width:599px) {   
     .navbar {
-        height: 35px;
-        line-height: 30px;         
+        height:35px;
+        line-height:30px;         
     }  
 }
 
