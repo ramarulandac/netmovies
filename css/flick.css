@@ -134,3 +134,14 @@ img {
         line-height:1rem;
     }
 }
+
+@media (min-width:1387px) {
+    img {
+        width: 10%;
+    }
+
+    .card > p {      
+        font-size:.9rem;
+        line-height:1.2rem;
+    }
+}
