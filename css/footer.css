@@ -21,8 +21,18 @@
 .about-list a {    
     text-decoration:none;
     color:white;    
-    margin-right:3rem;    
+    margin-right:1.5em;    
 } 
+
+.about-item a:hover {
+    color:black;
+    font-weight:600;
+    transition:.5s;
+}
+.about-item:hover {
+    background-color:#999999;
+    transition:.5s;
+}
 
 .footer > .social-media > .sm-list {
     list-style-type:none;
@@ -32,17 +42,22 @@
 }
 
 .social-media .fab {
-    margin-right:3rem;
+    margin:0 1rem;
     color:white;
 }
 
 .social-media .fab:hover {
-    color: black;
-    background-color:#F0F0F0;
+    color:black;
+    font-weight:600;
     transition:0.5s;
 }
 
-@media (max-width: 450px) {       
+.sm-item:hover {
+    background-color:#999999;
+    transition:0.5s;
+}
+
+@media (max-width:450px) {       
        .about .about-list a {
         margin-right:.6rem;
     }

@@ -34,7 +34,7 @@
 }
 
 .navbar-list >.navbar-item {
-    margin-right:3rem;
+    margin-right:1.5rem;
  }
 
 @media (max-width:350px) and (min-width:269px) {
@@ -74,12 +74,16 @@
     font-size:0.9rem;   
 }
 
-.shine:hover  {
-	color:black;
-    background-color:white;
+.navbar-item:hover  {	
+    background-color:#999999;
     transition:0.5s;
  }
 
+ .navbar-item a:hover {
+    color:black;
+    transition:0.5s;
+    font-weight:600;
+ }
 .logout a:hover {
     color:black;
     background-color:#F0F0F0;
