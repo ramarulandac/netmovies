@@ -59,7 +59,8 @@
 
 @media (max-width:450px) {       
        .about .about-list a {
-        margin-right:.6rem;
+        margin-right:.5rem;  
+        font-size: .9rem;            
     }
 }
 
