@@ -51,13 +51,13 @@ h1 {
     text-align: left;
 }
 
-input[type=text], input[type=password]  {
+input[type=email], input[type=password]  {
     width: 100%; 
     padding: 7px 0;
     border: solid 1px black;     
 }
 
-input[type=text] {
+input[type=email] {
     margin-top: 2%;
 }
 
