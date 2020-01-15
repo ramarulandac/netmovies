@@ -16,12 +16,24 @@ main {
     max-width:33%;
     padding:0 ;
 }
-  
-.col img {    
-    vertical-align:middle;
-    max-width:100%;
- }
 
+.film {
+    position: relative;
+    min-height: 200px;
+}
+  
+.col img {        
+    max-width:100%;
+    display: block;
+ }
+.marco {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    background: rgba(15, 12, 41, .75);
+    color:white;
+    height: 30%;
+}
 .movies {
     margin-bottom:100px;
 }
